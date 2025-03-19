@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch2Student</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Add this in the head section -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Fetch2Student</div>
+        <div class="nav-buttons">
+            <button class="nav-share" onclick="shareWebsite()">
+                <i class="fas fa-share-alt"></i>
+                Share
+            </button>
+            <button id="contactBtn" class="nav-contact">Contact</button>
+        </div>
+    </nav>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Course Request:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Request</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Remove the h1 with website name from here -->
+        <div class="selection-container">
+            <div class="select-group">
+                <label for="courseSelect">Select Course:</label>
+                <select id="courseSelect">
+                    <option value="">Choose Course</option>
+                    {% for course in courses %}
+                    <option value="{{ course }}">{{ course }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="select-group hidden" id="semesterContainer">
+                <label for="semesterSelect">Select Semester:</label>
+                <select id="semesterSelect">
+                    <option value="">Choose Semester</option>
+                </select>
+            </div>
+
+            <div class="select-group hidden" id="subjectContainer">
+                <label for="subjectSelect">Select Subject:</label>
+                <select id="subjectSelect">
+                    <option value="">Choose Subject</option>
+                </select>
+            </div>
+
+            <div class="button-group hidden" id="detailsContainer">
+                <button id="viewSyllabus" class="btn">View Syllabus</button>
+                <button id="getNotes" class="btn">Get Notes</button>
+            </div>
+            <!-- Add this after the button-group div -->
+            <div class="syllabus-container hidden" id="syllabusContainer">
+                <h2>Syllabus Content</h2>
+                <div id="syllabusContent" class="content-box"></div>
+            </div>
+        </div>
+        
+        <!-- Add this at the bottom of container -->
+        <div class="share-message">
+            <p>If our work helped you, please share it with your friends! 🎓</p>
+        </div>
+        <!-- Add this after the share-message div and before closing the container div -->
+        <div class="credits">
+            <p>Developed with ❤️ by</p>
+            <div class="developers">
+                <span><a href="https://www.linkedin.com/in/ayush-mishra1728/" target="_blank"><i class="fab fa-linkedin"></i> Ayush Mishra</a></span>
+                <span>&</span>
+                <span><a href="https://www.linkedin.com/in/brishav-kumar-52329a211" target="_blank"><i class="fab fa-linkedin"></i> Brishav Kumar</a></span>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
