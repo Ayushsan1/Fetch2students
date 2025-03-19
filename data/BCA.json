@@ -1,0 +1,170 @@
+[
+	{
+		"sno" : 6,
+		"semester" : 1,
+		"subject" : "Computer Programming",
+		"syllabus" : "Basics of Programming",
+		"notes" : "https://drive.google.com/bca_file1"
+	},
+	{
+		"sno" : 7,
+		"semester" : 1,
+		"subject" : "Digital Electronics",
+		"syllabus" : "Gates, Flip-Flops, Circuits",
+		"notes" : "https://drive.google.com/bca_file2"
+	},
+	{
+		"sno" : 8,
+		"semester" : 1,
+		"subject" : "Discrete Mathematics",
+		"syllabus" : "Logic, Sets, Relations",
+		"notes" : "https://drive.google.com/bca_file3"
+	},
+	{
+		"sno" : 9,
+		"semester" : 1,
+		"subject" : "IT Fundamentals",
+		"syllabus" : "OS, Networking, Security",
+		"notes" : "https://drive.google.com/bca_file4"
+	},
+	{
+		"sno" : 10,
+		"semester" : 1,
+		"subject" : "Business English",
+		"syllabus" : "Communication, Report Writing",
+		"notes" : "https://drive.google.com/bca_file5"
+	},
+	{
+		"sno" : 11,
+		"semester" : 1,
+		"subject" : "Environmental Science",
+		"syllabus" : "Sustainability, Climate Change",
+		"notes" : "https://drive.google.com/bca_file6"
+	},
+	{
+		"sno" : 12,
+		"semester" : 2,
+		"subject" : "Object-Oriented Programming",
+		"syllabus" : "Java, C++",
+		"notes" : "https://drive.google.com/bca_file7"
+	},
+	{
+		"sno" : 13,
+		"semester" : 2,
+		"subject" : "Data Structures",
+		"syllabus" : "Stacks, Queues, Trees",
+		"notes" : "https://drive.google.com/bca_file8"
+	},
+	{
+		"sno" : 14,
+		"semester" : 2,
+		"subject" : "Operating Systems",
+		"syllabus" : "Linux, Windows, File Systems",
+		"notes" : "https://drive.google.com/bca_file9"
+	},
+	{
+		"sno" : 15,
+		"semester" : 2,
+		"subject" : "Database Management",
+		"syllabus" : "SQL, Normalization",
+		"notes" : "https://drive.google.com/bca_file10"
+	},
+	{
+		"sno" : 16,
+		"semester" : 2,
+		"subject" : "Computer Networks",
+		"syllabus" : "TCP/IP, Routing",
+		"notes" : "https://drive.google.com/bca_file11"
+	},
+	{
+		"sno" : 17,
+		"semester" : 2,
+		"subject" : "Technical Writing",
+		"syllabus" : "Presentations, Research Papers",
+		"notes" : "https://drive.google.com/bca_file12"
+	},
+	{
+		"sno" : 18,
+		"semester" : 3,
+		"subject" : "Algorithm Design",
+		"syllabus" : "Sorting, Graph Algorithms",
+		"notes" : "https://drive.google.com/bca_file13"
+	},
+	{
+		"sno" : 19,
+		"semester" : 3,
+		"subject" : "Web Development",
+		"syllabus" : "HTML, CSS, JavaScript",
+		"notes" : "https://drive.google.com/bca_file14"
+	},
+	{
+		"sno" : 20,
+		"semester" : 3,
+		"subject" : "Software Engineering",
+		"syllabus" : "SDLC, Agile, Testing",
+		"notes" : "https://drive.google.com/bca_file15"
+	},
+	{
+		"sno" : 21,
+		"semester" : 3,
+		"subject" : "Mobile App Development",
+		"syllabus" : "Android, iOS",
+		"notes" : "https://drive.google.com/bca_file16"
+	},
+	{
+		"sno" : 22,
+		"semester" : 3,
+		"subject" : "Machine Learning",
+		"syllabus" : "Supervised, Unsupervised",
+		"notes" : "https://drive.google.com/bca_file17"
+	},
+	{
+		"sno" : 23,
+		"semester" : 3,
+		"subject" : "Project Management",
+		"syllabus" : "Scrum, Agile, Kanban",
+		"notes" : "https://drive.google.com/bca_file18"
+	},
+	{
+		"sno" : 24,
+		"semester" : 4,
+		"subject" : "Cloud Computing",
+		"syllabus" : "AWS, Azure",
+		"notes" : "https://drive.google.com/bca_file19"
+	},
+	{
+		"sno" : 25,
+		"semester" : 4,
+		"subject" : "Internet Security",
+		"syllabus" : "Firewalls, Intrusion Detection",
+		"notes" : "https://drive.google.com/bca_file20"
+	},
+	{
+		"sno" : 26,
+		"semester" : 4,
+		"subject" : "Data Mining",
+		"syllabus" : "Clustering, Association Rules",
+		"notes" : "https://drive.google.com/bca_file21"
+	},
+	{
+		"sno" : 27,
+		"semester" : 4,
+		"subject" : "Blockchain",
+		"syllabus" : "Bitcoin, Ethereum, Security",
+		"notes" : "https://drive.google.com/bca_file22"
+	},
+	{
+		"sno" : 28,
+		"semester" : 4,
+		"subject" : "Cyber Ethics",
+		"syllabus" : "Privacy, Digital Rights",
+		"notes" : "https://drive.google.com/bca_file23"
+	},
+	{
+		"sno" : 29,
+		"semester" : 4,
+		"subject" : "Research Methodology",
+		"syllabus" : "Data Collection, Analysis",
+		"notes" : "https://drive.google.com/bca_file24"
+	}
+]

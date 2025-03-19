@@ -1,40 +1,30 @@
 from flask import Flask, render_template, jsonify, request
-import smtplib
+import json
+import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import mysql.connector
+import smtplib
 import logging
 
 app = Flask(__name__)
 logger = logging.getLogger(__name__)
 
-db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'root1234',
-    'database': 'dseu'
-}
+# Path to data files
+DATA_DIR = '/Users/macbook/Documents/Minor Project/data'
 
-def get_db_connection():
+def read_course_data(course):
     try:
-        connection = mysql.connector.connect(**db_config)
-        return connection
+        file_path = os.path.join(DATA_DIR, f'{course}.json')
+        with open(file_path, 'r') as f:
+            return json.load(f)
     except Exception as e:
-        logger.error(f"Database connection error: {str(e)}")
-        return None
+        logger.error(f"Error reading course data: {str(e)}")
+        return []
 
 def get_available_courses():
     try:
-        connection = get_db_connection()
-        if not connection:
-            return []
-        
-        cursor = connection.cursor()
-        cursor.execute("SHOW TABLES")
-        courses = [row[0] for row in cursor.fetchall()]
-        
-        cursor.close()
-        connection.close()
+        # Get available JSON files (without extension)
+        courses = [f.split('.')[0] for f in os.listdir(DATA_DIR) if f.endswith('.json')]
         return courses
     except Exception as e:
         logger.error(f"Error getting courses: {str(e)}")
@@ -42,16 +32,8 @@ def get_available_courses():
 
 def get_semesters(course):
     try:
-        connection = get_db_connection()
-        if not connection:
-            return []
-        
-        cursor = connection.cursor()
-        cursor.execute(f"SELECT DISTINCT semester FROM {course} ORDER BY semester")
-        semesters = [row[0] for row in cursor.fetchall()]
-        
-        cursor.close()
-        connection.close()
+        course_data = read_course_data(course)
+        semesters = sorted(set(item['semester'] for item in course_data))
         return semesters
     except Exception as e:
         logger.error(f"Error getting semesters: {str(e)}")
@@ -59,43 +41,22 @@ def get_semesters(course):
 
 def get_subjects(course, semester):
     try:
-        connection = get_db_connection()
-        if not connection:
-            return []
-        
-        cursor = connection.cursor()
-        cursor.execute(f"SELECT subject FROM {course} WHERE semester = %s ORDER BY subject", (semester,))
-        subjects = [row[0] for row in cursor.fetchall()]
-        
-        cursor.close()
-        connection.close()
-        return subjects
+        course_data = read_course_data(course)
+        subjects = [item['subject'] for item in course_data if item['semester'] == int(semester)]
+        return sorted(subjects)
     except Exception as e:
         logger.error(f"Error getting subjects: {str(e)}")
         return []
 
 def get_subject_details(course, semester, subject):
     try:
-        connection = get_db_connection()
-        if not connection:
-            return {'syllabus': '', 'notes': ''}
-        
-        cursor = connection.cursor(dictionary=True)
-        cursor.execute(f"""
-            SELECT syllabus, notes 
-            FROM {course} 
-            WHERE semester = %s AND subject = %s
-        """, (semester, subject))
-        
-        result = cursor.fetchone()
-        cursor.close()
-        connection.close()
-        
-        if result:
-            return {
-                'syllabus': result['syllabus'],
-                'notes': result['notes']
-            }
+        course_data = read_course_data(course)
+        for item in course_data:
+            if item['semester'] == int(semester) and item['subject'] == subject:
+                return {
+                    'syllabus': item.get('syllabus', ''),
+                    'notes': item.get('notes', '')
+                }
         return {'syllabus': '', 'notes': ''}
     except Exception as e:
         logger.error(f"Error getting subject details: {str(e)}")

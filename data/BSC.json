@@ -1,0 +1,240 @@
+[
+	{
+		"sno" : 6,
+		"semester" : 1,
+		"subject" : "Mathematical Foundation for DA",
+		"syllabus" : "Algebra, Calculus, Probability",
+		"notes" : "https://drive.google.com/file/d/1nDiVjr0-KAatAL-SevJsipYfFCkgjxmr/view?usp=drive_link"
+	},
+	{
+		"sno" : 7,
+		"semester" : 1,
+		"subject" : "DCSA",
+		"syllabus" : "Mechanics, Thermodynamics",
+		"notes" : "https://drive.google.com/bsc_file2"
+	},
+	{
+		"sno" : 8,
+		"semester" : 1,
+		"subject" : "Python Programming",
+		"syllabus" : "Organic, Inorganic, Physical",
+		"notes" : "https://drive.google.com/bsc_file3"
+	},
+	{
+		"sno" : 9,
+		"semester" : 1,
+		"subject" : "Basics of Excel",
+		"syllabus" : "Hardware, Software, OS",
+		"notes" : "https://drive.google.com/bsc_file4"
+	},
+	{
+		"sno" : 10,
+		"semester" : 1,
+		"subject" : "English Communication",
+		"syllabus" : "Grammar, Writing, Speaking",
+		"notes" : "https://drive.google.com/bsc_file5"
+	},
+	{
+		"sno" : 11,
+		"semester" : 1,
+		"subject" : "FTW",
+		"syllabus" : "Ecology, Pollution, Conservation",
+		"notes" : "https://drive.google.com/bsc_file6"
+	},
+	{
+		"sno" : 12,
+		"semester" : 2,
+		"subject" : "MFDA -II",
+		"syllabus" : "Differentiation, Integration",
+		"notes" : "https://drive.google.com/bsc_file7"
+	},
+	{
+		"sno" : 13,
+		"semester" : 2,
+		"subject" : "Advance Excel",
+		"syllabus" : "Optics, Waves, Electricity",
+		"notes" : "https://drive.google.com/bsc_file8"
+	},
+	{
+		"sno" : 14,
+		"semester" : 2,
+		"subject" : "DBMS",
+		"syllabus" : "Hydrocarbons, Biomolecules",
+		"notes" : "https://drive.google.com/bsc_file9"
+	},
+	{
+		"sno" : 15,
+		"semester" : 2,
+		"subject" : "Visualizing & Storytelling with Data",
+		"syllabus" : "Loops, Functions, Pointers",
+		"notes" : "https://drive.google.com/bsc_file10"
+	},
+	{
+		"sno" : 16,
+		"semester" : 2,
+		"subject" : "English Comm, II",
+		"syllabus" : "Reports, Presentations, Emails",
+		"notes" : "https://drive.google.com/bsc_file11"
+	},
+	{
+		"sno" : 17,
+		"semester" : 2,
+		"subject" : "FTW",
+		"syllabus" : "Genetics, Microbiology",
+		"notes" : "https://drive.google.com/bsc_file12"
+	},
+	{
+		"sno" : 18,
+		"semester" : 3,
+		"subject" : "DSA",
+		"syllabus" : "Vectors, Matrices, Eigenvalues",
+		"notes" : "https://drive.google.com/bsc_file13"
+	},
+	{
+		"sno" : 19,
+		"semester" : 3,
+		"subject" : "Maths ",
+		"syllabus" : "Bayes Theorem, Distributions",
+		"notes" : "https://drive.google.com/bsc_file14"
+	},
+	{
+		"sno" : 20,
+		"semester" : 3,
+		"subject" : "EVS",
+		"syllabus" : "Data Structures, Algorithms",
+		"notes" : "https://drive.google.com/bsc_file15"
+	},
+	{
+		"sno" : 21,
+		"semester" : 3,
+		"subject" : "FL",
+		"syllabus" : "Diodes, Transistors, Amplifiers",
+		"notes" : "https://drive.google.com/bsc_file16"
+	},
+	{
+		"sno" : 22,
+		"semester" : 3,
+		"subject" : "Data Science",
+		"syllabus" : "Regression, Clustering, NLP",
+		"notes" : "https://drive.google.com/bsc_file17"
+	},
+	{
+		"sno" : 23,
+		"semester" : 3,
+		"subject" : "Business Communication",
+		"syllabus" : "Negotiations, Public Speaking",
+		"notes" : "https://drive.google.com/bsc_file18"
+	},
+	{
+		"sno" : 24,
+		"semester" : 4,
+		"subject" : "NLP",
+		"syllabus" : "1. Basics of Textual Data\n\nBag of words and N-grams, Keyword / key phrase extraction, Document Term Model (TF-IDF), Bernoulli and Binomial Document Models: Representation a document as a vector, Representing a document collection as matrix, Python for Text processing: Vectors & Word2Vec, Dimensionality Reduction & DIMSUM, Hidden Markov and Maximum Entropy Models    \n\n[No of hours: 10]    \n\n2. Speech\n\nPhonetics, Speech Synthesis, Automatic Speech Recognition, Part of Speech Tagging: Stanford Parser, Open NLP, Entity extraction: Keyword based entity extraction, Rule based entity extraction, Machine learning for entity extraction, Visualization of Textual Data: Word cloud, Word clusters, Word to entity relationship.    \n\n[No of hours: 10]    \n\n3. Modeling Techniques:\n\nTopic Discovery using clustering and latent models, Text Classification, Sentiment Analysis, Naive Bayes, Logistic Regression and Support Vector Machines, Summarization / key sentence extraction, Storing and Access of Text Data: MongoDB, Searching on text data.    \n\n[No of hours: 12]    \n\n4. Semantics and Pragmatics: The Representation of Meaning, Computational Semantics, Lexical Semantics, Computational Lexical Semantics Semantics: Wordnet for discovery of semantics, Semantic search, Subject Object relationship extraction. Applications: Information Extraction, Question Answering and Summarization, Dialogue and Conversational Agents, Machine Translation    \n\n[No of hours: 10]    \n\n",
+		"notes" : "https://drive.google.com/bsc_file19"
+	},
+	{
+		"sno" : 25,
+		"semester" : 4,
+		"subject" : "AML",
+		"syllabus" : "1.  Factor Analysis\n\nConfirmatory Vs. Explanatory, Principal Component Analysis\n\n[No of hours:4]    \n\n2.  Dimensionality Reduction - Introduction\n\nReduces Overfitting, Avoiding multicollinearity, Noisy and Parse data, Trade-off between accuracy and training time\n\n3.  Dimensionality Reduction - Methods\n\n[No of hours:5]\n\nFactor Analysis, Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Singular Value Decomposition (SVD)\n\n[No of hours: 4]\n\n4.  Latent Variables and its use in Machine Learning\n\nObservable Variables vs. Latent Variables, Hidden nature, cannot be observed but inferred, Factor Analysis, Hidden Markov Models (HMM), Expectation Maximization (EM)\n\n[No of hours:5]\n\n5.  Generalized Linear Models\n\nDifference with Linear Regression, Different link functions like normal, binomial, categorical,etc.\n\n[No of hours: 5]\n\n6.  Support Vector Machines\n\n[No of hours: 5]\n\nHyperplanes and Support Vectors Support vector regression, Kernel methods, Cost Function and Gradient Update\n\n7.  Genetic Algorithms (GA)\n\n[No of hours: 4]\n\nBiological Background Of Genetic Algorithms, Correlation Of A Chromosome With GA, Important Terminology In GA, Roulette Wheel and others, Crossover & Mutation, Stopping Genetic Algorithm\n\n8.  Ensemble Methods\n\n[No of hours:4]\n\nBagging Methods, Boosting Methods, Differences and Similarities\n\n9.  Explainable Models\n\n[No of hours:4]\n\nDegree of explainability across various algorithms, Domain specific explainability requirements\n\n10. Ethics in Data Science\n\n[No of hours:4]\n\nIdentification and adjusting bias, Data Privacy and Data Protection, Ethically Aligned design",
+		"notes" : "https://drive.google.com/file/d/1bSTQK9_DzyUKSTp70OY08ds5V8cWZfMU/view"
+	},
+	{
+		"sno" : 26,
+		"semester" : 4,
+		"subject" : "Discrete Mathematics",
+		"syllabus" : "Logic and Proofs\nPropositional logic, Predicate logic, Propositional equivalences, Normal Forms, Predicate and Quantifiers, Nested Quantifiers, Rules of Inference, Introduction to Proofs, Proof Methods and Strategy.\n\n[No of hours: 10]\n\nBasic Structures\nSets, Set Operations, Functions, Sequences and Summations\n\n[No of hours: 8]\n\nNumber Theory and Cryptography\nIntegers and division, Primes and Greatest Common Divisors, Integers and Algorithms, Applications of Number Theory, Cryptography\n\n[No of hours: 8]\n\nInduction and Recursion\nMathematical Induction, Recursive Definitions and Structural Induction\n\n[No of hours: 8]\n\nCounting\nThe Basics of Counting, The Pigeonhole Principle, Permutations and Combinations, Binomial Coefficients and Identities, Generalized Permutations and Combinations   \n\n[No of hours: 10]\n\nGraph Theory\nGraphs and Graph Models, Graph Terminology and Special Types of Graphs, Representing Graphs and Graph Isomorphism, Connectivity, Euler and Hamiltonian Paths, Shortest-Path Problems, Planar Graphs, Graph Coloring   \n\n[No of hours: 8]",
+		"notes" : "https://drive.google.com/bsc_file21"
+	},
+	{
+		"sno" : 27,
+		"semester" : 4,
+		"subject" : "Web Application Design and Developement",
+		"syllabus" : "1.  Internet and the World Wide Web:    \n\nWhat is the Internet?    \n\nIntroduction to the internet and its applications, E-mail, telnet, FTP, e-commerce, video conferencing, e-business.    \n\nInternet service providers, domain name server, internet address, World Wide Web (WWW): World Wide Web and its evolution, uniform resource locator (URL), browsers - internet explorer, Netscape navigator, opera, Firefox, chrome, Mozilla.    \n\nsearch engine, web saver - apache, IIS, proxy server, HTTP protocol.    \n\nHTML5: Introduction, Why HTML5?    \n\nFormatting text by using tags, using lists and backgrounds, Creating hyperlinks and anchors.    \n\nStyle sheets, CSS formatting text using style sheets, formatting paragraphs using style sheets.    \n\nHTML5 Page layout and navigation    \n\n[No of hours: 9]    \n\nCreating navigational aids: planning site organization, creating text based navigation bar, creating graphics based navigation bar, creating graphical navigation bar, creating image map, redirecting to another URL, creating division based layouts: HTML5 semantic tags, creating divisions, creating HTML5 semantic layout, positioning and formatting divisions.    \n\nHTML5 Tables, Forms and Media:    \n\nCreating tables: creating simple table, specifying the size of the table, specifying the width of the column, merging table cells, using tables for page layout, formatting tables: applying table borders, applying background and foreground fills, changing cell padding, spacing and alignment, creating user forms: creating basic form, using check boxes and option buttons, creating lists, additional input types in HTML5, Incorporating sound and video: audio and video in HTML5, HTML multimedia basics, embedding video clips, incorporating audio on web page.    \n2.  Java Script    \n\n[No of hours:8]    \n\nIntroduction, Client-Side JavaScript, Server-Side JavaScript, JavaScript Objects, JavaScript Security.    \n\nOperators:    \n\nAssignment Operators, Comparison Operators, Arithmetic Operators, % (Modulus), ++(Increment), --(Decrement), -(Unary Negation), Logical Operators, Short-Circuit Evaluation, String Operators, Special Operators, ?: (Conditional operator),, (Comma operator), delete, new, this, void    \n\nOperators, % (Modulus), ++(Increment), --(Decrement), -(Unary Negation), Logical Operators, Short-Circuit Evaluation, String Operators, Special Operators, ?: (Conditional operator), (Comma operator), delete, new, this, void \n\n",
+		"notes" : "https://drive.google.com/bsc_file22"
+	},
+	{
+		"sno" : 30,
+		"semester" : 5,
+		"subject" : "Graph Theory",
+		"syllabus" : "Trees, Graph Traversal, Algorithms",
+		"notes" : "https://drive.google.com/bsc_file25"
+	},
+	{
+		"sno" : 31,
+		"semester" : 5,
+		"subject" : "Embedded Systems",
+		"syllabus" : "Microcontrollers, RTOS",
+		"notes" : "https://drive.google.com/bsc_file26"
+	},
+	{
+		"sno" : 32,
+		"semester" : 5,
+		"subject" : "Artificial Intelligence",
+		"syllabus" : "Expert Systems, Neural Networks",
+		"notes" : "https://drive.google.com/bsc_file27"
+	},
+	{
+		"sno" : 33,
+		"semester" : 5,
+		"subject" : "Cybersecurity",
+		"syllabus" : "Cryptography, Network Security",
+		"notes" : "https://drive.google.com/bsc_file28"
+	},
+	{
+		"sno" : 34,
+		"semester" : 5,
+		"subject" : "Big Data Analytics",
+		"syllabus" : "Hadoop, Spark, Data Mining",
+		"notes" : "https://drive.google.com/bsc_file29"
+	},
+	{
+		"sno" : 35,
+		"semester" : 5,
+		"subject" : "Technical Entrepreneurship",
+		"syllabus" : "Startups, Funding, MVP",
+		"notes" : "https://drive.google.com/bsc_file30"
+	},
+	{
+		"sno" : 36,
+		"semester" : 6,
+		"subject" : "Cloud Computing",
+		"syllabus" : "AWS, Azure, GCP",
+		"notes" : "https://drive.google.com/bsc_file31"
+	},
+	{
+		"sno" : 37,
+		"semester" : 6,
+		"subject" : "Internet of Things",
+		"syllabus" : "Sensors, Embedded Systems",
+		"notes" : "https://drive.google.com/bsc_file32"
+	},
+	{
+		"sno" : 38,
+		"semester" : 6,
+		"subject" : "Computer Vision",
+		"syllabus" : "Image Processing, CNNs",
+		"notes" : "https://drive.google.com/bsc_file33"
+	},
+	{
+		"sno" : 39,
+		"semester" : 6,
+		"subject" : "Blockchain Technology",
+		"syllabus" : "Bitcoin, Smart Contracts",
+		"notes" : "https://drive.google.com/bsc_file34"
+	},
+	{
+		"sno" : 40,
+		"semester" : 6,
+		"subject" : "Data Visualization",
+		"syllabus" : "Tableau, Power BI",
+		"notes" : "https://drive.google.com/bsc_file35"
+	},
+	{
+		"sno" : 41,
+		"semester" : 6,
+		"subject" : "Capstone Project",
+		"syllabus" : "Real-world Research & Development",
+		"notes" : "https://drive.google.com/bsc_file36"
+	}
+]
